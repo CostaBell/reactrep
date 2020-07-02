@@ -14,7 +14,7 @@ function App() {
         <Switch>
 
           <Route exact path='/' component= {()=> { return <h1>HomePage Works!! </h1> }} />
-          <Route exact path='page2' component= {()=> { return <h1>Page 2 Works!! </h1> }} />
+          <Route exact path='/page2' component= {()=> { return <h1>Page 2 Works!! </h1> }} />
 
         </Switch>
 
